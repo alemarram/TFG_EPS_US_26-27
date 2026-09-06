@@ -1,0 +1,1681 @@
+[
+    {
+        "id": "1687249fd86a6d01",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5cee0d89b8575ca5",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "10.1.10.10",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f5f6d95f8da1f570",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "10.1.10.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4f58394c022557f4",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "10.1.10.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "088d5a66f94d0046",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "10.1.10.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5048a885b0e347ae",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "10.1.10.10",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6da63cbfbf7e152e",
+        "type": "ui_tab",
+        "name": "Estación meteorológica",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e0327cdaf34227b3",
+        "type": "ui_tab",
+        "name": "Estación meteorológica",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f4d9336c51d4a033",
+        "type": "ui_tab",
+        "name": "Estación meteorológica",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0bc679511f5f175f",
+        "type": "ui_tab",
+        "name": "Estación meteorológica",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4d83fdd44f730d05",
+        "type": "ui_tab",
+        "name": "Estación meteorológica",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6f41664fbe4c7a68",
+        "type": "ui_group",
+        "name": "Sensor viento",
+        "tab": "6da63cbfbf7e152e",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a84a61ccc4de51ea",
+        "type": "ui_group",
+        "name": "Sensor temp-hum",
+        "tab": "e0327cdaf34227b3",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "03a473ba3ccf2ba2",
+        "type": "ui_group",
+        "name": "Sensor solar",
+        "tab": "f4d9336c51d4a033",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b8bf9d6ef62a5988",
+        "type": "ui_group",
+        "name": "Pluviómetro",
+        "tab": "0bc679511f5f175f",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "977c8744ad20b01c",
+        "type": "ui_group",
+        "name": "PMS",
+        "tab": "4d83fdd44f730d05",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "64745c6cccd4289f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "1b5059585b35f38e",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "be45a576fbe36514",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1b1770932b63b1b5",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "9aa404a1774cfb48",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "01c06f0f6097373c",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "79113649f5cd5381",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 10,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7e67bf0e04ef550f",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1a9e3ad44c1a109b",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7436e7ef9a4434da",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e0c42132a49b0305",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "0838050e5b61bd2f",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 17,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "8ef483b60d86e464",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 18,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "685c31a4a29360b5",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "2b24fb2d6709eaae",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 20,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "33d0b9ae9dad4f2b",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "977c8744ad20b01c",
+        "order": 21,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4b37cffaef2eb8ca",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "b8bf9d6ef62a5988",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "0158a0b558892ca1",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "b8bf9d6ef62a5988",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c4e159ef67dc520c",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "b8bf9d6ef62a5988",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b2eca790489a5ff7",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "b8bf9d6ef62a5988",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "97294a083c5467cd",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "b8bf9d6ef62a5988",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e71baab6ff7d12e3",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "03a473ba3ccf2ba2",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "2338e80ead865065",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "03a473ba3ccf2ba2",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "36345436f48ee6e1",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "03a473ba3ccf2ba2",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "daf830fc8616ecef",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "03a473ba3ccf2ba2",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "9ac5002809956a65",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "03a473ba3ccf2ba2",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "532a24f3aefd73ea",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "aa242f18c5203839",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "779d34373b9c4b24",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d6630521396b6ac0",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4f86ef6bfb0fcce5",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "31b86cf4b0aa42c0",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 10,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "067ff183a34559f4",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "65319babc632fe22",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5a32d2b3d41daafd",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "efb69f75ccfc4752",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "a84a61ccc4de51ea",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4fd0ade8e8c4512c",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7e6051d6af9b9942",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "34aa6410b66730c9",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "3f5dd6f0736e0b37",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "f4714fd3635d097e",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "17ffb407a52eefaa",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 9,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "9311de7a766218eb",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 10,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "0bd178aa29b9f588",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 11,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "87aba9fef02ddfa1",
+        "type": "ui_spacer",
+        "z": "1687249fd86a6d01",
+        "name": "spacer",
+        "group": "6f41664fbe4c7a68",
+        "order": 12,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "mqtt_viento",
+        "type": "mqtt in",
+        "z": "1687249fd86a6d01",
+        "name": "Viento MQTT",
+        "topic": "meteo/viento",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5cee0d89b8575ca5",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "json_viento"
+            ]
+        ]
+    },
+    {
+        "id": "json_viento",
+        "type": "json",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 270,
+        "y": 200,
+        "wires": [
+            [
+                "func_viento"
+            ]
+        ]
+    },
+    {
+        "id": "func_viento",
+        "type": "function",
+        "z": "1687249fd86a6d01",
+        "name": "Separar velocidad-dirección",
+        "func": "let velocidad = msg.payload.velocidad;\nlet direccion = msg.payload.direccion;\n\nreturn [    \n    { payload: velocidad },\n    { payload: velocidad },\n    { payload: direccion },\n    ];\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 200,
+        "wires": [
+            [
+                "gauge_viento"
+            ],
+            [
+                "chart_viento"
+            ],
+            [
+                "rosa_viento"
+            ]
+        ]
+    },
+    {
+        "id": "chart_viento",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "6f41664fbe4c7a68",
+        "order": 2,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico viento",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 740,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "rosa_viento",
+        "type": "ui_template",
+        "z": "1687249fd86a6d01",
+        "group": "6f41664fbe4c7a68",
+        "name": "Rosa viento",
+        "order": 8,
+        "width": "7",
+        "height": "7",
+        "format": "<div style=\"text-align:center\">\n\n    <div style=\"position:relative; width:260px; height:260px; margin:auto;\">\n\n        <!-- ROSA DE LOS VIENTOS -->\n        <svg width=\"260\" height=\"260\" style=\"position:absolute; left:0; top:0;\">\n\n            <!-- círculo exterior -->\n            <circle cx=\"130\" cy=\"130\" r=\"120\" stroke=\"#333\" stroke-width=\"2\" fill=\"none\" />\n\n            <!-- líneas cardinales -->\n            <line x1=\"130\" y1=\"10\" x2=\"130\" y2=\"250\" stroke=\"#ccc\" />\n            <line x1=\"10\" y1=\"130\" x2=\"250\" y2=\"130\" stroke=\"#ccc\" />\n\n            <!-- diagonales -->\n            <line x1=\"40\" y1=\"40\" x2=\"220\" y2=\"220\" stroke=\"#eee\" />\n            <line x1=\"220\" y1=\"40\" x2=\"40\" y2=\"220\" stroke=\"#eee\" />\n\n            <!-- etiquetas -->\n            <text x=\"130\" y=\"10\" text-anchor=\"middle\" font-size=\"14\">N</text>\n            <text x=\"130\" y=\"260\" text-anchor=\"middle\" font-size=\"14\">S</text>\n            <text x=\"254\" y=\"135\" text-anchor=\"middle\" font-size=\"14\">E</text>\n            <text x=\"4\" y=\"135\" text-anchor=\"middle\" font-size=\"14\">O</text>\n\n            <text x=\"222\" y=\"46\" text-anchor=\"middle\" font-size=\"12\">NE</text>\n            <text x=\"220\" y=\"226\" text-anchor=\"middle\" font-size=\"12\">SE</text>\n            <text x=\"40\" y=\"226\" text-anchor=\"middle\" font-size=\"12\">SO</text>\n            <text x=\"40\" y=\"42\" text-anchor=\"middle\" font-size=\"12\">NO</text>\n\n        </svg>\n\n        <!-- AGUJA -->\n        <div id=\"needle\" style=\"\n            width:4px;\n            height:110px;\n            background:red;\n            position:absolute;\n            top:20px;\n            left:128px;\n            transform-origin:bottom center;\n            transform: rotate(0deg);\n            transition: transform 0.3s ease;\n            z-index:10;\n        \"></div>\n\n        <!-- centro -->\n        <div style=\"\n            width:12px;\n            height:12px;\n            background:black;\n            border-radius:50%;\n            position:absolute;\n            top:124px;\n            left:124px;\n            z-index:11;\n        \"></div>\n\n    </div>\n    <!--\n    <div style=\"margin-top:10px;font-size:18px;\">\n        <span id=\"value\">--</span>\n    </div>\n    -->\n</div>\n\n<script>\n    (function(scope) {\n    /*\n    function getDir(deg){\n        const dirs = [\"N\",\"NE\",\"E\",\"SE\",\"S\",\"SO\",\"O\",\"NO\"];\n        return dirs[Math.round(deg / 45) % 8];\n    }\n    */\n    scope.$watch('msg.payload', function(deg) {\n\n        if (deg === undefined || deg === null) return;\n\n        let value = Number(deg);\n\n        if (isNaN(value)) return;\n\n        value = ((value % 360) + 360) % 360;\n\n        document.getElementById(\"needle\").style.transform =\n            \"rotate(\" + value + \"deg)\";\n\n        //document.getElementById(\"value\").innerText =\n        //    value.toFixed(0) + \"° (\" + getDir(value) + \")\";\n\n    });\n\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 730,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "gauge_viento",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "6f41664fbe4c7a68",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Velocidad viento",
+        "label": "m/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "70",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 740,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "mqtt_amb",
+        "type": "mqtt in",
+        "z": "1687249fd86a6d01",
+        "name": "Ambiente MQTT",
+        "topic": "meteo/ambiente",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f5f6d95f8da1f570",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "json_amb"
+            ]
+        ]
+    },
+    {
+        "id": "json_amb",
+        "type": "json",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "func_amb"
+            ]
+        ]
+    },
+    {
+        "id": "func_amb",
+        "type": "function",
+        "z": "1687249fd86a6d01",
+        "name": "Separar temp-hum",
+        "func": "let temperatura = msg.payload.temperatura;\nlet humedad = msg.payload.humedad;\n\nreturn [\n{payload:msg.payload.temperatura},\n{payload:msg.payload.temperatura},\n{payload:msg.payload.humedad},\n{payload:msg.payload.humedad}\n];",
+        "outputs": 4,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 440,
+        "wires": [
+            [
+                "gauge_temp"
+            ],
+            [
+                "chart_temp"
+            ],
+            [
+                "gauge_hum"
+            ],
+            [
+                "chart_hum"
+            ]
+        ]
+    },
+    {
+        "id": "gauge_temp",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "a84a61ccc4de51ea",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "60",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "chart_temp",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "a84a61ccc4de51ea",
+        "order": 2,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico temperatura ",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 740,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "gauge_hum",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "a84a61ccc4de51ea",
+        "order": 8,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "chart_hum",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "a84a61ccc4de51ea",
+        "order": 9,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico humedad",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "mqtt_solar",
+        "type": "mqtt in",
+        "z": "1687249fd86a6d01",
+        "name": "Solar MQTT",
+        "topic": "meteo/solar",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "4f58394c022557f4",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1150,
+        "y": 160,
+        "wires": [
+            [
+                "json_solar"
+            ]
+        ]
+    },
+    {
+        "id": "json_solar",
+        "type": "json",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1310,
+        "y": 160,
+        "wires": [
+            [
+                "func_solar"
+            ]
+        ]
+    },
+    {
+        "id": "func_solar",
+        "type": "function",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "func": "let radiacion = msg.payload.radiacion;\n\nreturn [\n    {payload:msg.payload.radiacion},\n    {payload: msg.payload.radiacion}\n];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 160,
+        "wires": [
+            [
+                "gauge_solar"
+            ],
+            [
+                "chart_solar"
+            ]
+        ]
+    },
+    {
+        "id": "gauge_solar",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "03a473ba3ccf2ba2",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Radiación",
+        "label": "W/m²",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "1800",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1620,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "chart_solar",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "03a473ba3ccf2ba2",
+        "order": 2,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico radiación",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1650,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "mqtt_lluvia",
+        "type": "mqtt in",
+        "z": "1687249fd86a6d01",
+        "name": "Lluvia MQTT",
+        "topic": "meteo/lluvia",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "088d5a66f94d0046",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1150,
+        "y": 360,
+        "wires": [
+            [
+                "json_lluvia"
+            ]
+        ]
+    },
+    {
+        "id": "json_lluvia",
+        "type": "json",
+        "z": "1687249fd86a6d01",
+        "x": 1310,
+        "y": 360,
+        "wires": [
+            [
+                "func_lluvia"
+            ]
+        ]
+    },
+    {
+        "id": "func_lluvia",
+        "type": "function",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "func": "let mm_min = msg.payload.mm_min;\n\nreturn [\n    {payload:msg.payload.mm_min},\n    {payload: msg.payload.mm_min}\n];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1460,
+        "y": 360,
+        "wires": [
+            [
+                "gauge_lluvia"
+            ],
+            [
+                "chart_lluvia"
+            ]
+        ]
+    },
+    {
+        "id": "gauge_lluvia",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "b8bf9d6ef62a5988",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Lluvia",
+        "label": "mm/min",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1630,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "chart_lluvia",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "b8bf9d6ef62a5988",
+        "order": 2,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico lluvia",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1660,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "mqtt_pm",
+        "type": "mqtt in",
+        "z": "1687249fd86a6d01",
+        "name": "PMS MQTT",
+        "topic": "meteo/aire",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "5048a885b0e347ae",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 1150,
+        "y": 560,
+        "wires": [
+            [
+                "json_pm"
+            ]
+        ]
+    },
+    {
+        "id": "json_pm",
+        "type": "json",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1300,
+        "y": 560,
+        "wires": [
+            [
+                "func_pm"
+            ]
+        ]
+    },
+    {
+        "id": "func_pm",
+        "type": "function",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "func": "let pm1 = msg.payload.pm1;\nlet pm25 = msg.payload.pm25;\nlet pm10 = msg.payload.pm10;\n\nreturn [\n{payload:msg.payload.pm1},\n//{payload:msg.payload.pm1},\n{payload:msg.payload.pm25},\n//{payload:msg.payload.pm25},\n{payload:msg.payload.pm10}\n//{payload:msg.payload.pm10}\n];",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 560,
+        "wires": [
+            [
+                "chart_pm1",
+                "8af8651e9bfbe6da"
+            ],
+            [
+                "chart_pm25",
+                "d4fe7424228673de"
+            ],
+            [
+                "chart_pm10",
+                "4ec7ac0466f88e05"
+            ]
+        ]
+    },
+    {
+        "id": "chart_pm1",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 2,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico PM1",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1740,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "chart_pm25",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 9,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico PM2.5",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1740,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "chart_pm10",
+        "type": "ui_chart",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 16,
+        "width": 18,
+        "height": 5,
+        "label": "Histórico PM10",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1740,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8af8651e9bfbe6da",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 1,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "PM1",
+        "label": " μ g/m³",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "d4fe7424228673de",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 8,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "PM2.5",
+        "label": " μ g/m³",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1710,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4ec7ac0466f88e05",
+        "type": "ui_gauge",
+        "z": "1687249fd86a6d01",
+        "name": "",
+        "group": "977c8744ad20b01c",
+        "order": 15,
+        "width": 5,
+        "height": 5,
+        "gtype": "gage",
+        "title": "PM10",
+        "label": " μ g/m³",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1710,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f213eb3279a49d63",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
